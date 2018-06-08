@@ -1,0 +1,28 @@
+{
+  "name": "mogd",
+  "version": "0.0.1",
+  "description": "CLI tool for backing up and restoring a mongodb collection",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm version patch",
+    "postpublish": "git push && git push --tags"
+  },
+  "bin": {
+    "mogd": "bin/index.js"
+  },
+  "keywords": [
+    "mongodb",
+    "CLI",
+    "backup",
+    "restore"
+  ],
+  "author": "Petros Kyriakou",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "shelljs": "^0.8.2"
+  }
+}
