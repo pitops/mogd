@@ -1,6 +1,6 @@
 {
   "name": "mogd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool for backing up and restoring a mongodb collection",
   "main": "index.js",
   "scripts": {
