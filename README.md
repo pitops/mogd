@@ -1,4 +1,7 @@
 # Mogd
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pitops/mogd.svg)](https://greenkeeper.io/)
+
 Mogd is a CLI tool for backing up and restoring a mongodb collection
 
 ### Setup
